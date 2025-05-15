@@ -20,3 +20,15 @@ Aquí encontrarás cascos, vestimenta, accesorios y mucho más para tu motocicle
 ---
 
 ## 🚀 Enjoy!
+
+---
+
+### 🖼️ Imagen de motos
+
+La imagen usada es de Pixabay (libre de derechos). Si deseas, puedes:
+
+- Subir tu propia imagen de moto a GitHub (`assets/banner.jpg`) y usarla así:
+
+```markdown
+<img src="assets/banner1.jpg" width="700"/>
+
