@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Protuner Replica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="top-bar">
+      <p>Envío GRATIS a Lima Urbana por compras superiores a S/79</p>
+    </div>
+    <div class="header-main">
+      <h1 class="logo">VISTONY</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#">CASCOS</a></li>
+          <li><a href="#">VESTIMENTA</a></li>
+          <li><a href="#">EQUIPAJE</a></li>
+          <li><a href="#">MOTO ACCESORIOS</a></li>
+          <li><a href="#">LLANTAS</a></li>
+          <li><a href="#">OFERTA</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+      </nav>
+      <div class="user-actions">
+        <a href="#">Iniciar Sesión</a>
+        <a href="#">Carrito (0)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="banner">
+  <button class="arrow left" onclick="prevBanner()">&#10094;</button>
+  <img id="banner-img" src="assets/banner1.jpg" alt="Banner principal" />
+  <button class="arrow right" onclick="nextBanner()">&#10095;</button>
+</section>
+
+  <!-- Categorías -->
+  <section class="categories">
+    <h2>Categorías</h2>
+    <div class="category-list">
+      <div class="category-item">
+        <img src="assets/cascos.jpg" alt="Cascos" />
+        <p>Cascos</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/vestimenta.jpg" alt="Vestimenta" />
+        <p>Vestimenta</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/llantas.jpg" alt="Llantas" />
+        <p>Llantas</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/equipaje.jpg" alt="Equipaje" />
+        <p>Equipaje</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/accesorios.jpg" alt="Accesorios" />
+        <p>Accesorios</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/movilidad.jpg" alt="Movilidad Urbana" />
+        <p>Movilidad Urbana</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos Destacados -->
+  <section class="featured-products">
+    <h2>Productos Destacados</h2>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="assets/producto1.jpg" alt="Producto 1" />
+        <p>Producto 1</p>
+        <p>S/ 199.00</p>
+      </div>
+      <div class="product-item">
+        <img src="assets/producto2.jpg" alt="Producto 2" />
+        <p>Producto 2</p>
+        <p>S/ 249.00</p>
+      </div>
+      <div class="product-item">
+        <img src="assets/producto3.jpg" alt="Producto 3" />
+        <p>Producto 3</p>
+        <p>S/ 299.00</p>
+      </div>
+      <div class="product-item">
+        <img src="assets/producto4.jpg" alt="Producto 4" />
+        <p>Producto 4</p>
+        <p>S/ 349.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Contacto</h3>
+        <p>Teléfono: +51 1 7483788</p>
+        <p>Email: atencion@protuner.pe</p>
+        <p>Dirección: Av. República de Panamá 5252, Surquillo</p>
+      </div>
+      <div class="social-media">
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+      <div class="newsletter">
+        <h3>Suscríbete</h3>
+        <p>Recibe las últimas ofertas y novedades.</p>
+        <form>
+          <input type="email" placeholder="Tu correo electrónico" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Protuner.pe - Todos los Derechos Reservados</p>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
