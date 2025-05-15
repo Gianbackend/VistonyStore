@@ -15,7 +15,7 @@ Aquí encontrarás cascos, vestimenta, accesorios y mucho más para tu motocicle
 
 ## 🖼️ Vista previa
 
-<img src="https://cdn.pixabay.com/photo/2017/01/10/02/18/motorbike-1965268_1280.jpg" alt="Motos VistonyStore" width="700"/>
+<img src="https://images.pexels.com/photos/32076454/pexels-photo-32076454/free-photo-of-motociclista-en-una-gasolinera-durante-la-hora-dorada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Motos VistonyStore" width="700"/>
 
 ---
 
@@ -23,12 +23,5 @@ Aquí encontrarás cascos, vestimenta, accesorios y mucho más para tu motocicle
 
 ---
 
-### 🖼️ Imagen de motos
 
-La imagen usada es de Pixabay (libre de derechos). Si deseas, puedes:
-
-- Subir tu propia imagen de moto a GitHub (`assets/banner.jpg`) y usarla así:
-
-```markdown
-<img src="assets/banner1.jpg" width="700"/>
 
